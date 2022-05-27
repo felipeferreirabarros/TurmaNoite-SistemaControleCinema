@@ -1,11 +1,11 @@
 Algoritmo "CinemaGoIt"
 // Disciplina   : [Algoritmos]
 // Professor   : Francisco Vichi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descriï¿½ï¿½o   : Aqui vocï¿½ descreve o que o programa faz! (funï¿½ï¿½o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/05/2022
 Var
-   // Seção de Declarações das variáveis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
    opcao:inteiro
    filas, lugares:inteiro
    cadeiras: vetor[1..20, 1..20] de Caractere
@@ -62,7 +62,14 @@ inicio
    escreval("Informe o codigo do cliente : ")
    leia(codcliente)
    escreval("Informe o nome do cliente : ")
-   leia(cliente)
+   leia(cliente)ahefuiyeruyrueyhuherguiheqg
+   qre
+   ge
+   rg
+   ExibirCadeirasgerw
+   ger
+   gereg
+   eSCREVALgrew
 fimprocedimento
 
 procedimento menu()
@@ -86,12 +93,12 @@ procedimento EscolheCadeiras()
 inicio
     cabecalho()
    se cadeiras[1,1]="" entao
-      Escreval("Não foi cadastrada as cadeiras ainda !!")
+      Escreval("Nï¿½o foi cadastrada as cadeiras ainda !!")
       leia(teste)
    senao
       repita
          ExibirCadeiras()
-         Escreval("Informe a posição desEjada")
+         Escreval("Informe a posiï¿½ï¿½o desEjada")
          leia(reserva)
          para lin <- 1 ate filas faca
             para col <- 1 ate lugares faca
@@ -125,8 +132,8 @@ inicio
       escreval("")
    fimpara
    ValorBilhete <- 20
-   escreval(" O valor de cada bilhete é : ", ValorBilhete:5:2)
-   escreval("A sua conta total é : ", (ValorBilhete * QuantosBilhetes):5:2)
+   escreval(" O valor de cada bilhete ï¿½ : ", ValorBilhete:5:2)
+   escreval("A sua conta total ï¿½ : ", (ValorBilhete * QuantosBilhetes):5:2)
    leia(teste)
 fimprocedimento
 
@@ -154,7 +161,7 @@ fimprocedimento
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
    repita
       menu()
       leia(opcao)
